@@ -12,7 +12,7 @@ You will need to have a valid Python installation on your system. This has been 
 
 ## Installing
 
-The folloiwing installations are for *nix-like systems. These have been tried on macOS Sierra (Version 10.12.6) before. 
+The folloiwing installations are for `*nix-like` systems. These have been tried on macOS Sierra (Version 10.12.6) before. 
 
 1. Clone the program to your computer. 
 2. type `make firstRun`. This should do the following
@@ -27,11 +27,11 @@ The folloiwing installations are for *nix-like systems. These have been tried on
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+All the requirements are present within the file `requirements.txt` Note that this uses selenium and associated webdrivers. Webdrivers may be obtained form seleniums [website](https://www.seleniumhq.org/download/). The webdrivers are located in the folder webdriver. These are intentionally not loaded to the repository. You will have to download the required driver and place that within the webdrivers folder. Currently the [`chromedriver`](https://chromedriver.storage.googleapis.com/index.html?path=2.40/) and [`geckodriver`](https://github.com/mozilla/geckodriver/releases/download/v0.21.0/geckodriver-v0.21.0-arm7hf.tar.gz) is supported. You are welcome to add more drivers, and subsequentyl write required functionality for loading the drivers. By the time you are reading this, the drivers will probably be outdated. 
 
 ## Built With
 
- - Python 3.6
+ - Python 3.6. 
 
 ## Contributing
 
@@ -43,7 +43,7 @@ Sankha Mukherjee - Initial work (2018)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details
+This project is licensed under the MIT License - see the [LICENSE.txt](https://github.com/sankhaMukherjee/flippa/blob/master/LICENCE.txt) file for details
 
 ## Acknowledgments
 
